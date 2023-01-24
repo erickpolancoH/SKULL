@@ -1,5 +1,4 @@
 # SKULL
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -33,7 +32,7 @@
 
 
 
-       <h3>Bizarrecartoon@gmail.com</h3>
+       <a></a><h3>Skullpriest00@gmail.com</h3></a>
    
 
 
