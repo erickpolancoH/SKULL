@@ -13,10 +13,9 @@
 <body>
     <div class="container">
 
-<div class="header">
-    <div class="title-container">
+
+
         <h2>SKUll</h2>
-    </div>
 </div>
 
 
