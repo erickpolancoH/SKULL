@@ -13,9 +13,6 @@
 <body>
     <div class="container">
 
-
-
-        <h2>SKUll</h2>
 </div>
 
 
