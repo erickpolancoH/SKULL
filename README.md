@@ -8,18 +8,23 @@
     <link rel="stylesheet" href="skull.css">
     <link rel="stylesheet" href="global.css">
     <link rel="stylesheet" href="global.css" media="all">
+    <script type=”text/javascript” src=”https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js“></script>
+
+<script type=”text/javascript” src=”scripts/sequence.js“></script>
     <title>SKUll</title>
 </head>
 <body>
     <div class="container">
-
-</div>
-
-
+ 
 <div class="description-container">
     <img class="description-container" src="skul services.svg">
 
 </div>
+
+<div id="videoContainer">
+    <video id="video" src="Videos colection0001-0656.mp4" controls></video>
+</div>
+
 
 <div class="description-container">
     <img class="description-container" src="Lowdoom.svg">
@@ -28,19 +33,13 @@
 
 
 
-       <a></a><h3>Skullpriest00@gmail.com</h3></a>
+       <a>Skullpriest00@gmail.com</a>
    
 
 
 
-
-
-
-
-
-
-
-
     </div>
+
+    <script href="skull.js"></script>
 </body>
 </html>
