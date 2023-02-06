@@ -1,3 +1,5 @@
+
+
 body{
     margin: auto;
     padding: 0;
@@ -46,7 +48,7 @@ h3{
 }
 
 
-.description-container{
+.description-container {
     background-color: rgb(255, 255, 255);
   
     padding: 1%;
@@ -56,8 +58,10 @@ h3{
 
 }
 
+
+
 @media (min-width: 600px) {
-    .description-containerdiv {
+    .description-container {
       width: 50%;
     }
   }
