@@ -31,6 +31,13 @@ body{
         padding: 30px;
 
     }
+
+    #video{
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+
   }
 
  /* Media query for iPad */
