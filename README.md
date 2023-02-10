@@ -1,5 +1,4 @@
 # SKULL
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,9 +8,9 @@
     <link rel="stylesheet" href="skull.css">
     <link rel="stylesheet" href="global.css">
     <link rel="stylesheet" href="global.css" media="all">
-    <script hidden type=”text/javascript” src=”https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js“></script>
+    <script hidden type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
-<script hidden type=”text/javascript” src=”scripts/sequence.js“></script>
+<script hidden type="text/javascript" src="scripts/sequence.js"></script>
     <title>SKUll</title>
 </head>
 <body>
