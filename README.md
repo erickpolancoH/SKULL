@@ -52,4 +52,3 @@
     <script href="skull.js"></script>
 </body>
 </html>
-
