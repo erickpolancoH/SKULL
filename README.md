@@ -61,7 +61,7 @@
 </div>
 
 <footer>
-    <div class="container">
+    <div >
       <div class="row">
         <div class="col-md-4">
           <h4>About Us</h4>
