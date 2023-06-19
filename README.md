@@ -38,10 +38,44 @@
     <div class="container" >
         <img class="container" src="skullpublicity.svg" alt="">
     </div>
-       <a>Skullpriest00@gmail.com</a>
+
+
+
+       
    
 
+<div class="card">
+  <img src="vector crab.svg" alt="Card Image">
+  <div class="card-container">
+    <h4>Erick Polanco</h4>
+    <ul>
+        <li>Drawing & vector trace</li>
+        <li>Html,CSS,JS,React.js</li>
+        <li>Inkscape</li>
+        <li>Adobe illustrator</li>
+        <li>Procreate</li>
+      </ul>
+    <a href="https://Skullpriest00@gmail.com" class="btn">Skullpriest00@gmail.com</a>
+    
+  </div>
+</div>
 
+<footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h4>About Us</h4>
+          <p>
+            Vector Trace and Web Developers is a team of experienced professionals who specialize in creating high-quality vector graphics and web development solutions. Our team is dedicated to providing top-notch services to our clients, whether it's creating custom vector graphics, designing and developing websites, or providing ongoing support and maintenance. We pride ourselves on our attention to detail, creativity, and commitment to excellence in everything we do. Whether you're a small business owner or a large corporation, we have the skills and expertise to help you achieve your goals and take your business to the next level.</p>
+        </div>
+        <div class="col-md-4">
+          <h4>Contact Us</h4>
+          <p>30115<br>Gardens FL, USA<br>(786)752 248<br>Skullpriest00@gmail.com</p>
+        </div>
+        <div class="col-md-4">
+      </div>
+    </div>
+  </footer>
 
     
 
