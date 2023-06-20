@@ -40,7 +40,7 @@
     </div>
     
   </div>
-</div>
+
 
 <div class="card">
   <img src="vector crab.svg" alt="Card Image">
@@ -52,12 +52,13 @@
         <li>Inkscape</li>
         <li>Adobe illustrator</li>
         <li>Procreate</li>
+        <a href="https://Skullpriest00@gmail.com" class="btn">Skullpriest00@gmail.com</a>
       </ul>
-    <a href="https://Skullpriest00@gmail.com" class="btn">Skullpriest00@gmail.com</a>
+
   </div>
 
 
-
+<hr>
     
 
     <script href="skull.js"></script>
