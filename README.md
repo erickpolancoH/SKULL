@@ -37,10 +37,7 @@
       
       <div class="container" >
         <img class="container" src="skullpublicity.svg" alt="">
-    </div>
-    
-  </div>
-
+      </div>
 
 <div class="card">
   <img src="vector crab.svg" alt="Card Image">
