@@ -97,9 +97,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.58"
-     inkscape:cx="400"
-     inkscape:cy="353.10345"
+     inkscape:zoom="0.71"
+     inkscape:cx="642.96408"
+     inkscape:cy="302.63034"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1-6"
      inkscape:document-rotation="0"
@@ -125,6 +125,22 @@
        position="272.33835,124.35417"
        orientation="0,-1"
        id="guide884" />
+    <sodipodi:guide
+       position="334.78959,156.70668"
+       orientation="1,0"
+       id="guide862" />
+    <sodipodi:guide
+       position="226.59859,56.636551"
+       orientation="0,-1"
+       id="guide864" />
+    <sodipodi:guide
+       position="152.2009,105.09983"
+       orientation="1,0"
+       id="guide866" />
+    <sodipodi:guide
+       position="113.89989,17.552846"
+       orientation="0,-1"
+       id="guide868" />
   </sodipodi:namedview>
   <metadata
      id="metadata5">
@@ -134,7 +150,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -148,12 +164,12 @@
        transform="translate(-0.48131906,-13.808568)">
       <path
          style="fill:none;stroke:#000000;stroke-width:5.14349;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-         d="m 254.37081,151.72943 c 17.49928,31.37656 17.49928,31.37656 17.49928,31.37656 l 57.0347,0.93938 0.64813,-93.239371 H 167.52255 L 144.19015,66.177383 142.8939,27.409042 15.213986,27.646951 16.510226,184.04537 121.5059,183.5162 137.06082,153.02566 Z"
+         d="m 254.37081,150.14193 17.49928,34.02239 57.56387,-0.11895 0.11896,-93.239371 H 167.52255 l -23.3324,-24.628616 -1.29625,-39.297508 -127.679914,0.237909 1.29624,156.927586 104.995674,0 15.55492,-33.66554 z"
          id="path1646"
          sodipodi:nodetypes="cccccccccccc" />
       <path
          style="fill:none;stroke:#000000;stroke-width:4.90239;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-         d="m 155.20821,27.527995 1.94439,32.168169 18.79552,16.851156 153.6048,-0.118952 -0.64813,-30.99088 -17.49928,-18.676569 z"
+         d="m 155.20821,26.998828 0.35689,32.697336 20.38302,17.90949 153.6048,-0.118952 -0.64813,-32.049214 -17.49928,-18.676569 z"
          id="path2443"
          sodipodi:nodetypes="ccccccc" />
       <path
