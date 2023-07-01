@@ -16,7 +16,12 @@ body{
   margin-top: 14px;
   
     }
-  
+    video{
+      width: 100%;
+      height: auto;
+    }
+
+    
   .banner{
     width: 100%;
   height: auto;
@@ -98,6 +103,11 @@ background-color: black transparent;
 margin:0 auto;
 overflow: hidden;
 
+  }
+
+  video{
+    width: 100%;
+    height: auto;
   }
 
 .banner{
