@@ -15,13 +15,6 @@
 </head>
 <body>
 
-    <audio id="myAudio" controls >
-        <source src="skull.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-        <button id="playBtn">Play</button>
-        <button id="pauseBtn">Pause</button>
-      </audio>
-
     <div class="container" >
         <img class="container" src="portadaskull.svg" alt="">
     </div>
@@ -34,9 +27,17 @@
     <div class="container" >
         <img class="container" src="Androide curriculum.svg" alt="">
     </div>
-      
+
+    
+
+      <div class="container">
+        <video src="Skullmultiefectpedal10001-0769.mp4" controls playsinline></video>
+      </div>
+
+
+
       <div class="container" >
-        <img class="container" src="skullpublicity.svg" alt="">
+        <img class="container" src="blueprintskull.svg" alt="">
       </div>
 
 <div class="card">
