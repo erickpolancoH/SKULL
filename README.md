@@ -28,13 +28,15 @@
         <img class="container" src="Androide curriculum.svg" alt="">
     </div>
 
-    
+
+     <h3>3D Audio Interfaces</h3> 
+   
 
       <div class="container">
         <video src="Skullmultiefectpedal10001-0769.mp4" controls playsinline></video>
       </div>
 
-
+<h3>SVG blueprints</h3>
 
       <div class="container" >
         <img class="container" src="blueprintskull.svg" alt="">
