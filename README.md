@@ -52,7 +52,8 @@
         <li>Inkscape</li>
         <li>Adobe illustrator</li>
         <li>Procreate</li>
-        <a href="https://Skullpriest00@gmail.com" class="btn">Skullpriest00@gmail.com</a>
+        <a href="https://Skullpriest00@gmail.com" class="btn">Send e-mail</a>
+        
       </ul>
 
   </div>
