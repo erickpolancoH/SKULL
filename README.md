@@ -1,5 +1,3 @@
-# SKULL
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -14,6 +12,14 @@
     <title>SKUll</title>
 </head>
 <body>
+
+<div class="header">
+  <div class="icon">
+    <img src="skullcandyicon.svg">
+  </div>
+  <div class="skulltitle">SKUll</div>
+ 
+</div> 
 
     <div class="container" >
         <img class="container" src="portadaskull.svg" alt="">
