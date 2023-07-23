@@ -37,8 +37,8 @@ body{
       color: white; 
       background-color: black;
       width: 100%;
-      height: auto;
-      padding: 10px;
+      height: 30px;
+      padding: 3px;
      }
      
     video{
@@ -164,8 +164,8 @@ overflow: hidden;
     color: white; 
     background-color: black;
     width: 100%;
-    height: auto;
-    padding: 10px;
+    height: 30px;
+    padding: 3px;
    }
 
    
@@ -208,6 +208,7 @@ margin-bottom: 14px;
   width: 100%;
   height: auto;
   border-radius: 5px 5px 0 0;
+  background-color: transparent;
 }
  .card-container {
   padding: 2px 17px;
