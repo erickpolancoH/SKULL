@@ -23,13 +23,6 @@ body{
   font-size: medium;
   padding: 3px;
 }
-.icon{
-background-color:black;
-width: 30px;
-height: 30px;
-
-}
-
 .container{
   width: 100%;
   height: auto;
@@ -58,7 +51,6 @@ height: 30px;
     }
  
 .icon{
-background-color:black;
 width: 30px;
 height: 30px;
 
@@ -155,8 +147,6 @@ height: 30px;
         padding: 3px;
       }
 .icon{
-background-color: transparent;
-color: white;
 width: 30px;
 height: 30px;
 
