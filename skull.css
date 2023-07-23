@@ -26,7 +26,7 @@ body{
 .container{
   width: 100%;
   height: auto;
-  background-color: black transparent;
+  background-color:transparent;
   margin:0 auto;
   overflow: hidden;
   margin-top: 14px;
@@ -37,8 +37,8 @@ body{
       color: white; 
       background-color: black;
       width: 100%;
-      height: auto;
-      padding: 10px;
+      height: 30px;
+      padding: 3px;
      }
      
     video{
@@ -59,7 +59,7 @@ height: 30px;
   .banner{
     width: 100%;
   height: auto;
-  background-color: black transparent;
+  background-color: transparent;
   margin:0 auto;
   overflow: hidden;
   }
@@ -164,8 +164,8 @@ overflow: hidden;
     color: white; 
     background-color: black;
     width: 100%;
-    height: auto;
-    padding: 10px;
+    height: 30px;
+    padding: 3px;
    }
 
    
@@ -180,7 +180,7 @@ overflow: hidden;
 .banner{
   width: 100%;
 height: auto;
-background-color: black transparent;
+background-color:transparent;
 margin:0 auto;
 overflow: hidden;
 }
@@ -208,6 +208,7 @@ margin-bottom: 14px;
   width: 100%;
   height: auto;
   border-radius: 5px 5px 0 0;
+  background-color: transparent;
 }
  .card-container {
   padding: 2px 17px;
