@@ -50,7 +50,7 @@ body{
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            background-color: #141414;
+            background-color: #141414 transparent;
           }
 
           .icon-container{
@@ -64,7 +64,15 @@ body{
             height:200px ;
             border-radius: 100%;
             background-color: white;
+            background-position: center;
             color: white;
             overflow: hidden;
             margin-bottom: 20px;
+          }
+
+          .skull{
+            font-size: medium;
+            margin: 0 auto;
+            margin-bottom: 10px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
           }
