@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="skull.css">
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="global.css" media="all">
+    <script hidden type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<script hidden type="text/javascript" src="scripts/sequence.js"></script>
+    <title>SKUll</title>
+</head>
+<body>
+
+<div class="header">
+  <div class="icon">
+    <img src="skullcandyicon.svg">
+  </div>
+  <div class="skulltitle">SKUll</div>
+ 
+</div> 
+
+    <div class="container" >
+        <img class="container" src="portadaskull.svg" alt="">
+    </div>
+
+
+    <div class="banner" >
+        <img class="banner" src="cintillo..svg" alt="">
+    </div>
+
+    <div class="container" >
+        <img class="container" src="Androide curriculum.svg" alt="">
+    </div>
+
+
+     <h3>3D Audio Interfaces</h3> 
+   
+
+      <div class="container">
+        <video src="Skullmultiefectpedal10001-0769.mp4" controls playsinline></video>
+      </div>
+
+<h3>SVG blueprints</h3>
+
+      <div class="container" >
+        <img class="container" src="blueprintskull.svg" alt="">
+      </div>
+
+      <div class="footer">
+        <div class="icon">
+          <img src="skullcandyicon.svg" alt="">
+        </div>
+        <div class="skulltitle">SKUll</div>
+        <span>Skullpriest00@gmail.com</span>
+      </div>
+</body>
+</html>
