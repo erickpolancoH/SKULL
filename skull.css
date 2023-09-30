@@ -188,6 +188,7 @@ br{
       width: 100%;
       height: auto;
       margin:0 auto;
+      margin-top: top 10px;
     }
   
     .sketchfab-embed-wrapper {
