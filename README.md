@@ -20,7 +20,7 @@
     <div class="skulltitle">SKUll</div>
    
   </div> 
-   
+   <br>
 
       <div class="container">
         <video src="Skullmultiefectpedal10001-0769.mp4" controls playsinline></video>
@@ -38,6 +38,7 @@
       
       
       <a href="#" class="btn-log" > Back</a>
+      <br>
       
       <div class="header">
         <div class="icon">
@@ -55,4 +56,6 @@
     
 </body>
 </html>
+
+
 
