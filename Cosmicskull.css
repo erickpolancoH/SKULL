@@ -3,6 +3,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     display: grid;
+     font-family: robotto, arial, helvetica, sans-serif;
 }
 
 
@@ -14,7 +15,7 @@ body {
 }
 
 .logo {
-    background-color: #ffffff;
+    background-color:transparent;
     width: 50px;
     height: 50px;
     margin: 0px;
@@ -22,17 +23,13 @@ body {
 }
 
 
-.logo-theme {
-    background-color: #ffffff;
-    width: 150px;
-    height: 50px;
-}
 
 .portada{
     width: 100%; /* Puedes ajustar el ancho según tus necesidades */
-    height: 600px; /* Puedes ajustar la altura según tus necesidades */
+    height: 740px; /* Puedes ajustar la altura según tus necesidades */
     background-color: #4e4e4e; /* Color de fondo de la portada */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para darle un efecto de elevación */  
+    object-fit: cover;
 }
 
 
@@ -104,5 +101,34 @@ audio{
     top: 70px;
      right: 20px;
      padding: 10px 20px;
+
+}
+
+.presentacion{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 720px;
+    height: 720px;
+    object-fit: cover;
+   
+}
+
+img{
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+}
+
+h1{
+    color: white; 
+    background-color: #000;
+    background-position: relative;
+    padding: 14px 20px ; 
+    border: none;
+        cursor: pointer;
+        margin: 0 auto;
+        font-size:10px;
+        font-size: larger;
 
 }
