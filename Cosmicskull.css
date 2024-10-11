@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: grid;
+}
+
+
+.navigator{
+    background-color: #000;
+    width: 100%;
+    height: 50px;
+    flex: auto;
+}
+
+.logo {
+    background-color: #ffffff;
+    width: 50px;
+    height: 50px;
+    margin: 0px;
+    float: left;
+}
+
+
+.logo-theme {
+    background-color: #ffffff;
+    width: 150px;
+    height: 50px;
+}
+
+.portada{
+    width: 100%; /* Puedes ajustar el ancho según tus necesidades */
+    height: 600px; /* Puedes ajustar la altura según tus necesidades */
+    background-color: #4e4e4e; /* Color de fondo de la portada */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para darle un efecto de elevación */  
+}
+
+
+.container {
+    position: relative;
+    background-color: lightgray;
+    height: 100vh; /* Altura completa de la ventana */
+}
+.shop-link {
+    position: absolute;
+   top: 5px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+.shop-link:hover {
+    background-color: #c72805;
+}
+
+
+/* mmusicplayer controls */
+.audio-container {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+ position: relative;
+ background-position:left;
+
+}
+
+
+/* Donate button */
+
+#donate{
+color: white; 
+background-color: #000;
+background-position: relative;
+padding: 10px 20px ; 
+border: none;
+    cursor: pointer;
+    margin: 0 auto;
+    font-size:10px;
+}
+
+.donate-button {
+    background-color: #000000;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.donate-button:hover {
+    background-color:#c72805 ;
+}
+
+audio{
+    position: absolute;
+    top: 70px;
+     right: 20px;
+     padding: 10px 20px;
+
+}
