@@ -29,13 +29,15 @@
     }
     
     
-    
     .portada{
         width: 100%; /* Puedes ajustar el ancho según tus necesidades */
-        height: 260px; /* Puedes ajustar la altura según tus necesidades */
+        height: 320px; /* Puedes ajustar la altura según tus necesidades */
         background-color: #000000; /* Color de fondo de la portada */
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para darle un efecto de elevación */  
         object-fit: cover;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
     }
     
     
@@ -76,15 +78,19 @@
     /* Donate button */
     
     #donate{
-    color: white; 
-    background-color: #000;
-    background-position: relative;
-    padding: 10px 20px ; 
-    border: none;
-        cursor: pointer;
-        margin: 0 auto;
-        font-size:10px;
-    }
+        color: white; 
+        background-color: #000;
+        background-position: relative;
+        padding: 10px 20px ; 
+        border: none;
+            cursor: pointer;
+            margin: 0 auto;
+            font-size:10px;
+            margin-bottom: 8px;
+           justify-content: center;
+           cursor:pointer;
+           display: flex;
+        } 
     
     .donate-button {
         background-color: #000000;
@@ -143,14 +149,7 @@
         margin-bottom: 40px;
     }
     
-    .blackmith{
-        width: 10%; /* Puedes ajustar el ancho según tus necesidades */
-        height: auto; /* Puedes ajustar la altura según tus necesidades */
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para darle un efecto de elevación */  
-        object-fit: cover;
-        background-color: #fff;
-        border-radius: 20%;
-    }
+ 
     
     .blackmith:hover{
      background-color: #c72805;
@@ -206,10 +205,13 @@
     
     .portada{
         width: 100%; /* Puedes ajustar el ancho según tus necesidades */
-        height: 200px; /* Puedes ajustar la altura según tus necesidades */
+        height: 320px; /* Puedes ajustar la altura según tus necesidades */
         background-color: #000000; /* Color de fondo de la portada */
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para darle un efecto de elevación */  
         object-fit: cover;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
     }
     
     
@@ -314,15 +316,7 @@
     
     }
     
-    .blackmith{
-        width: 35%; /* Puedes ajustar el ancho según tus necesidades */
-        height: auto; /* Puedes ajustar la altura según tus necesidades */
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para darle un efecto de elevación */  
-        object-fit: cover;
-        background-color: #fff;
-        border-radius: 20%;
-    }
-    
+
     .blackmith:hover{
      background-color: #c72805;
     }
@@ -337,7 +331,19 @@
         margin-bottom: 40px;
     }
     
+.carbons{
+     display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+   margin: 0 auto;
 
+}
     
     footer {
         background-color: black;
@@ -386,11 +392,13 @@
     
     .portada{
         width: 100%; /* Puedes ajustar el ancho según tus necesidades */
-        height: 300px; /* Puedes ajustar la altura según tus necesidades */
+        height: 320px; /* Puedes ajustar la altura según tus necesidades */
         background-color: #000000; /* Color de fondo de la portada */
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para darle un efecto de elevación */  
         object-fit: cover;
-     
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
     }
     
     
@@ -496,15 +504,7 @@
     
     }
     
-    .blackmith{
-        width: 35%; /* Puedes ajustar el ancho según tus necesidades */
-        height: auto; /* Puedes ajustar la altura según tus necesidades */
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para darle un efecto de elevación */  
-        object-fit: cover;
-        background-color: #fff;
-        border-radius: 20%;
-        margin-left: 8px;
-    }
+
     
     .blackmith:hover{
      background-color: #c72805;
@@ -520,7 +520,18 @@
         margin-bottom: 40px;
     }
     
-
+    .carbons{
+        display: flex;
+           flex-wrap: wrap;
+           justify-content: center;
+           align-items: center;
+           margin-top: 20px;
+           margin-bottom: 40px;
+       width: 100%;
+       height: auto;
+       object-fit: cover;
+      
+   }
     
     footer {
         background-color: black;
@@ -569,10 +580,12 @@
     
     .portada{
         width: 100%; /* Puedes ajustar el ancho según tus necesidades */
-        height: 360px; /* Puedes ajustar la altura según tus necesidades */
+        height: 370px; /* Puedes ajustar la altura según tus necesidades */
         background-color: #000000; /* Color de fondo de la portada */
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para darle un efecto de elevación */  
         object-fit: cover;
+        display: flex;
+        align-items: center;
     }
     
     
@@ -677,14 +690,7 @@
     
     }
     
-    .blackmith{
-        width: 35%; /* Puedes ajustar el ancho según tus necesidades */
-        height: auto; /* Puedes ajustar la altura según tus necesidades */
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para darle un efecto de elevación */  
-        object-fit: cover;
-        background-color: #fff;
-        border-radius: 20%;
-    }
+   
     
     .blackmith:hover{
      background-color: #c72805;
@@ -699,7 +705,18 @@
         margin-top: 20px;
         margin-bottom: 40px;
     }
-    
+    .carbons{
+        display: flex;
+           flex-wrap: wrap;
+           justify-content: center;
+           align-items: center;
+           margin-top: 20px;
+           margin-bottom: 40px;
+       width: 100%;
+       height: auto;
+       object-fit: cover;
+       
+   }
 
     
     footer {
@@ -715,8 +732,8 @@
         margin: 0;
       }
 }
-/*////////////////////////////////phone/////////////////////////////////////////////////////*/
-@media screen and (max-width: 767px) {
+/*////////////////////////////////phone 14 pro max/////////////////////////////////////////////////////*/
+@media screen and (max-width: 430px) {
     
     body {
         margin: 0;
@@ -750,6 +767,201 @@
         background-color: #000000; /* Color de fondo de la portada */
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para darle un efecto de elevación */  
         object-fit: cover;
+        display: flex;
+        justify-content: center;
+     
+    }
+    
+    
+    .container {
+        position: relative;
+        background-color: lightgray;
+        height: 100vh; /* Altura completa de la ventana */
+    }
+    .shop-link {
+        position: absolute;
+       top: 5px;
+        right: 20px;
+        padding: 10px 20px;
+        background-color: #ffffff;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        font-size: 16px;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+    }
+    .shop-link:hover {
+        background-color: #c72805;
+    }
+    
+    
+ 
+    .audio-container {
+        width: 50px;
+        height: 50px;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+     position: relative;
+     background-position:left;
+    
+    }
+    
+    
+    #donate{
+        color: white; 
+        background-color: #000;
+        background-position: relative;
+        padding: 10px 20px ; 
+        border: none;
+            cursor: pointer;
+            margin: 0 auto;
+            font-size:10px;
+            justify-content: center;
+            display: flex;
+            margin-bottom: 8px;
+        }
+        
+    
+    .donate-button {
+        background-color: #000000;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+    }
+    
+    .donate-button:hover {
+        background-color:#c72805 ;
+    }
+    
+    audio{
+        position: absolute;
+        top: 70px;
+         right: 20px;
+         padding: 10px 20px;
+    
+    }
+    
+   
+    
+    img{
+        justify-content: center;
+        align-items: center;
+        object-fit: cover;
+    
+    }
+
+    .blackmith{
+        width: 200px;
+        height: auto;
+        object-fit: cover;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+        background-color: #fff;
+        border-radius: 30%;
+    }
+
+    .blackmith:hover{
+background-color: #c72805;
+color: #fff;
+    }
+    
+    
+    h1{
+        color: white; 
+        background-color: #000;
+        background-position: relative;
+        padding: 14px 20px ; 
+        border: none;
+            cursor: pointer;
+            margin: 0 auto;
+            font-size:10px;
+            font-size: larger;
+    
+    }
+    
+    
+    .gallery-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    
+    .carbons{
+        display: flex;
+           flex-wrap: wrap;
+           justify-content: center;
+           align-items: center;
+           margin-top: 20px;
+           margin-bottom: 40px;
+       width: 30%;
+       height: auto;
+       object-fit: cover;
+       display: flex;
+       justify-content: center;
+       background-color: transparent !important;
+  
+      
+   }
+    footer {
+        background-color: black;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        font-family: Arial, sans-serif;
+        font-size: 14px;
+      }
+      
+      footer p {
+        margin: 0;
+      }
+}
+
+/*////////////////////////////////phone 12/////////////////////////////////////////////////////*/
+@media screen and (max-width: 390px) {
+    
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        display: grid;
+         font-family: robotto, arial, helvetica, sans-serif;
+    }
+    
+    
+    .navigator{
+        background-color: #000;
+        width: 100%;
+        height: 50px;
+        flex: auto;
+    }
+    
+    .logo {
+        background-color:transparent;
+        width: 50px;
+        height: 50px;
+        margin: 0px;
+        float: left;
+    }
+    
+    
+    
+    .portada{
+        width: 100%; /* Puedes ajustar el ancho según tus necesidades */
+        height: 230px; /* Puedes ajustar la altura según tus necesidades */
+        background-color: #000000; /* Color de fondo de la portada */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para darle un efecto de elevación */  
+        object-fit: cover;
+        display: flex;
+    
     }
     
     
@@ -797,6 +1009,9 @@
         cursor: pointer;
         margin: 0 auto;
         font-size:10px;
+        justify-content: center;
+        display: flex;
+        margin-bottom: 8px;
     }
     
     .donate-button {
@@ -809,6 +1024,7 @@
         font-size: 16px;
         border-radius: 5px;
         transition: background-color 0.3s;
+    
     }
     
     .donate-button:hover {
@@ -833,7 +1049,7 @@
     }
 
     .blackmith{
-        width: 220px;
+        width: 200px;
         height: auto;
         object-fit: cover;
         justify-content: center;
@@ -872,7 +1088,22 @@ color: #fff;
         margin-bottom: 40px;
     }
     
-    
+    .carbons{
+        display: flex;
+           flex-wrap: wrap;
+           justify-content: center;
+           align-items: center;
+           margin-top: 20px;
+           margin-bottom: 40px;
+       width: 20%;
+       height: auto;
+       object-fit: cover;
+       display: flex;
+       justify-content: center;
+       background-color: transparent !important;
+  
+      
+   }
     footer {
         background-color: black;
         color: white;
