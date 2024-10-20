@@ -61,41 +61,45 @@
 
   <!-------------------------------------------------------Music Albums--------------------------------------------------------------------------->
 
-  <div class="album">
-    <div class="album-image">
-      <img src="cover1.jpg" alt="Cover 1">
-    </div>
-    <div class="audio-controls">
-      <button id="playButton">Play</button>
-      <button id="pauseButton">Pause</button>
-      <button id="stopButton">Stop</button>
-    </div>
-  </div>
-<script>
-import { Howl, Howler } from 'howler';
+  <div id="waveform"></div>
+  <button id="playButton">Play</button>
+  <button id="pauseButton">Pause</button>
 
-// Define el audio
-const sound = new Howl({
-  src: ['audio1.mp3'], // Ruta a tu archivo de audio
-  autoplay: false,
-  loop: false,
-  volume: 0.5,
-});
+  <script src="https://unpkg.com/howler/dist/howler.min.js"></script>
+  <script src="https://unpkg.com/wavesurfer.js/dist/wavesurfer.min.js"></script>
+  <script>
+    // Define el audio
+    const sound = new Howl({
+      src: ['audio1.mp3'],
+      autoplay: false,
+      loop: false,
+      volume: 0.5,
+      onload: function() {
+        wavesurfer.load('audio1.mp3');
+      }
+    });
 
-// Funciones para controlar la reproducción
-document.getElementById('playButton').addEventListener('click', () => {
-  sound.play();
-});
+    // Inicializa WaveSurfer
+    const wavesurfer = WaveSurfer.create({
+      container: '#waveform',
+      waveColor: 'white',
+      progressColor: 'gray',
+      backgroundColor: 'black',
+      barWidth: 2,
+      height: 80
+    });
 
-document.getElementById('pauseButton').addEventListener('click', () => {
-  sound.pause();
-});
+    // Controles de audio
+    document.getElementById('playButton').addEventListener('click', () => {
+      sound.play();
+      wavesurfer.play();
+    });
 
-document.getElementById('stopButton').addEventListener('click', () => {
-  sound.stop();
-});
-
-</script>
+    document.getElementById('pauseButton').addEventListener('click', () => {
+      sound.pause();
+      wavesurfer.pause();
+    });
+  </script>
 
 
 
