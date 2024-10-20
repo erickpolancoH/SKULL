@@ -33,7 +33,7 @@
 
 </div>
 
-  <!-------------------------------------------------------Donation Section--------------------------------------------------------------------------->
+  <!-------------------------------------------------------Vector Art Gallery--------------------------------------------------------------------------->
 
   
   <div class="Gallery-container">
@@ -53,8 +53,51 @@
     <img src="Ruster-Head.svg" alt="Imagen 14">
     <img src="Vegetable-food.svg" alt="Imagen 15">
     <img src="tomahawk.svg" alt="Imagen 16">
+    <img src="sushi.svg" alt="Imagen 17">
+    <img src="Pierna.svg" alt="Imagen 18">
+    <img src="Hamburguer-triple.svg" alt="Imagen 19">
 </div>
 <div>
+
+  <!-------------------------------------------------------Music Albums--------------------------------------------------------------------------->
+
+  <div class="album">
+    <div class="album-image">
+      <img src="cover1.jpg" alt="Cover 1">
+    </div>
+    <div class="audio-controls">
+      <button id="playButton">Play</button>
+      <button id="pauseButton">Pause</button>
+      <button id="stopButton">Stop</button>
+    </div>
+  </div>
+<script>
+import { Howl, Howler } from 'howler';
+
+// Define el audio
+const sound = new Howl({
+  src: ['audio1.mp3'], // Ruta a tu archivo de audio
+  autoplay: false,
+  loop: false,
+  volume: 0.5,
+});
+
+// Funciones para controlar la reproducción
+document.getElementById('playButton').addEventListener('click', () => {
+  sound.play();
+});
+
+document.getElementById('pauseButton').addEventListener('click', () => {
+  sound.pause();
+});
+
+document.getElementById('stopButton').addEventListener('click', () => {
+  sound.stop();
+});
+
+</script>
+
+
 
 
  <!-------------------------------------------------------Donate button--------------------------------------------------------------------------->
