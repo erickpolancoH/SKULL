@@ -126,7 +126,7 @@
         object-fit: cover;
     }
     
-    h1{
+    h2{
         color: white; 
         background-color: #000;
         background-position: relative;
@@ -134,7 +134,7 @@
         border: none;
             cursor: pointer;
             margin: 0 auto;
-            font-size:10px;
+            font-size:14px;
             font-size: larger;
     
     }
@@ -168,7 +168,57 @@
       footer p {
         margin: 0;
       }
-  }
+
+    
+
+#waveform{
+    width: 100%;
+    margin: 50px auto;
+    background-color: black; /* Fondo negro */
+    }
+    
+    #waveform canvas {
+        display: block;
+        width: 100%;
+        height: 80px;
+    }
+}
+ 
+   #play {
+
+    background-color: #000000;
+    color: white;
+    padding: 10px 20px ; 
+    border: none;
+        cursor: pointer;
+        margin: 0 auto;
+        font-size:10px;
+        margin-bottom: 8px;
+       justify-content: center;
+       cursor:pointer;
+ 
+   }
+
+   #pause {
+    background-color: #000000;
+    color: white;
+    padding: 10px 20px ; 
+    border: none;
+        cursor: pointer;
+        margin: 0 auto;
+        font-size:10px;
+        margin-bottom: 8px;
+       justify-content: center;
+       cursor:pointer;
+   
+   }
+
+  
+
+
+
+
+
 
 
   /* ///////////////////////////////////////////ipad mini///////////////////////////////////////////////////// */
@@ -303,7 +353,7 @@
         object-fit: cover;
     }
     
-    h1{
+    h2{
         color: white; 
         background-color: #000;
         background-position: relative;
@@ -311,7 +361,7 @@
         border: none;
             cursor: pointer;
             margin: 0 auto;
-            font-size:10px;
+            font-size:14px;
             font-size: larger;
     
     }
@@ -357,6 +407,41 @@
       footer p {
         margin: 0;
       }
+
+
+
+      #waveform {
+        width: 100%;
+        margin: 50px auto;
+        background-color: black; /* Fondo negro */
+      }
+      
+      #waveform canvas {
+        display: block;
+        width: 100%;
+        height: 80px;
+      }
+      
+      #playButton,
+      #pauseButton {
+        background-color: black; /* Fondo negro */
+        color: white; /* Texto blanco */
+        border: 1px solid white; /* Borde blanco */
+        padding: 10px 20px;
+        margin: 10px;
+        cursor: pointer;
+        font-size: 16px;
+      
+      }
+      
+      #playButton:hover,
+      #pauseButton:hover {
+        background-color: white; /* Fondo blanco al pasar el ratón */
+        color: black; /* Texto negro al pasar el ratón */
+      }
+
+
+
 }
 /* ///////////////////////////////////////////ipad Air///////////////////////////////////////////////////// */
 
@@ -491,7 +576,7 @@
         object-fit: cover;
     }
     
-    h1{
+    h2{
         color: white; 
         background-color: #000;
         background-position: relative;
@@ -499,7 +584,7 @@
         border: none;
             cursor: pointer;
             margin: 0 auto;
-            font-size:10px;
+            font-size:14px;
             font-size: larger;
     
     }
@@ -545,6 +630,37 @@
       footer p {
         margin: 0;
       }
+
+      
+#waveform {
+    width: 100%;
+    margin: 50px auto;
+    background-color: black; /* Fondo negro */
+  }
+  
+  #waveform canvas {
+    display: block;
+    width: 100%;
+    height: 80px;
+  }
+  
+  #playButton,
+  #pauseButton {
+    background-color: black; /* Fondo negro */
+    color: white; /* Texto blanco */
+    border: 1px solid white; /* Borde blanco */
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 16px;
+  
+  }
+  
+  #playButton:hover,
+  #pauseButton:hover {
+    background-color: white; /* Fondo blanco al pasar el ratón */
+    color: black; /* Texto negro al pasar el ratón */
+  }
 }
  /* ///////////////////////////////////////////ipad pro///////////////////////////////////////////////////// */
 
@@ -731,6 +847,38 @@
       footer p {
         margin: 0;
       }
+
+
+      #waveform {
+        width: 100%;
+        margin: 50px auto;
+        background-color: black; /* Fondo negro */
+      }
+      
+      #waveform canvas {
+        display: block;
+        width: 100%;
+        height: 80px;
+      }
+      
+      #playButton,
+      #pauseButton {
+        background-color: black; /* Fondo negro */
+        color: white; /* Texto blanco */
+        border: 1px solid white; /* Borde blanco */
+        padding: 10px 20px;
+        margin: 10px;
+        cursor: pointer;
+        font-size: 16px;
+      
+      }
+      
+      #playButton:hover,
+      #pauseButton:hover {
+        background-color: white; /* Fondo blanco al pasar el ratón */
+        color: black; /* Texto negro al pasar el ratón */
+      }
+
 }
 /*////////////////////////////////phone 14 pro max/////////////////////////////////////////////////////*/
 @media screen and (max-width: 430px) {
@@ -872,7 +1020,7 @@ color: #fff;
     }
     
     
-    h1{
+    h2{
         color: white; 
         background-color: #000;
         background-position: relative;
@@ -880,7 +1028,7 @@ color: #fff;
         border: none;
             cursor: pointer;
             margin: 0 auto;
-            font-size:10px;
+            font-size:14px;
             font-size: larger;
     
     }
@@ -923,6 +1071,40 @@ color: #fff;
       footer p {
         margin: 0;
       }
+
+
+
+      #waveform {
+        width: 100%;
+        margin: 50px auto;
+        background-color: black; /* Fondo negro */
+      }
+      
+      #waveform canvas {
+        display: block;
+        width: 100%;
+        height: 80px;
+      }
+      
+      #playButton,
+      #pauseButton {
+        background-color: black; /* Fondo negro */
+        color: white; /* Texto blanco */
+        border: 1px solid white; /* Borde blanco */
+        padding: 10px 20px;
+        margin: 10px;
+        cursor: pointer;
+        font-size: 16px;
+      
+      }
+      
+      #playButton:hover,
+      #pauseButton:hover {
+        background-color: white; /* Fondo blanco al pasar el ratón */
+        color: black; /* Texto negro al pasar el ratón */
+      }
+
+
 }
 
 /*////////////////////////////////phone 12/////////////////////////////////////////////////////*/
@@ -1065,7 +1247,7 @@ color: #fff;
     }
     
     
-    h1{
+    h2{
         color: white; 
         background-color: #000;
         background-position: relative;
@@ -1073,7 +1255,7 @@ color: #fff;
         border: none;
             cursor: pointer;
             margin: 0 auto;
-            font-size:10px;
+            font-size:14px;
             font-size: larger;
     
     }
@@ -1116,4 +1298,36 @@ color: #fff;
       footer p {
         margin: 0;
       }
+
+
+      
+#waveform {
+    width: 100%;
+    margin: 50px auto;
+    background-color: black; /* Fondo negro */
+  }
+  
+  #waveform canvas {
+    display: block;
+    width: 100%;
+    height: 80px;
+  }
+  
+  #playButton,
+  #pauseButton {
+    background-color: black; /* Fondo negro */
+    color: white; /* Texto blanco */
+    border: 1px solid white; /* Borde blanco */
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 16px;
+  
+  }
+  
+  #playButton:hover,
+  #pauseButton:hover {
+    background-color: white; /* Fondo blanco al pasar el ratón */
+    color: black; /* Texto negro al pasar el ratón */
+  }
 }
