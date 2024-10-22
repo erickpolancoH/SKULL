@@ -416,8 +416,10 @@ object-fit: cover;
         display:flex;
         width: 100%;
         height: auto;
+background-color: transparent;
 object-fit: cover;
-background-image: no repeat;
+background-repeat:no-repeat;
+background-size: cover;
 }
 
       #waveform{
@@ -651,8 +653,10 @@ background-image: no repeat;
         display:flex;
         width: 100%;
         height: autop;
-background-color: #000;
+background-color: transparent transparent;
 object-fit: cover;
+background-repeat:no-repeat;
+background-size: cover;
 }
 
       #waveform{
@@ -697,8 +701,10 @@ object-fit: cover;
         display:flex;
         width: 100%;
         height: autop;
-background-color: #000;
+background-color: transparent;
 object-fit: cover;
+background-repeat:no-repeat;
+background-size: cover;
 }
 
       #waveform{
