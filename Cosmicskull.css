@@ -653,7 +653,7 @@ background-size: cover;
         display:flex;
         width: 100%;
         height: autop;
-background-color: transparent transparent;
+background-color: transparent ;
 object-fit: cover;
 background-repeat:no-repeat;
 background-size: cover;
