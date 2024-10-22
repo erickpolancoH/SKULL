@@ -773,8 +773,7 @@ object-fit: cover;
     .portada{
         width: 100%; /* Puedes ajustar el ancho según tus necesidades */
         height: 370px; /* Puedes ajustar la altura según tus necesidades */
-        background-color: #000000; /* Color de fondo de la portada */
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para darle un efecto de elevación */  
+        background-color: #000000; /* Color de fondo de la portada */  
         object-fit: cover;
         display: flex;
         align-items: center;
