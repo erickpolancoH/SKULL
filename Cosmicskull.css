@@ -170,13 +170,7 @@
     
 
 
-      .waveimage {
-        display:flex;
-        width: 100%;
-        height: autop;
-background-color: #000;
-object-fit: cover;
-}
+
 
       #waveform{
         position: absolute;
@@ -316,9 +310,10 @@ object-fit: cover;
            justify-content: center;
            cursor:pointer;
            display: flex;
+           font-weight: 900;
         }
     
-        #dinate :hover{
+        #donate :hover{
             background-color: #c72805;
             color: #000;
         }
@@ -412,15 +407,7 @@ object-fit: cover;
       }
 
 
-      .waveimage {
-        display:flex;
-        width: 100%;
-        height: auto;
-background-color: transparent;
-object-fit: cover;
-background-repeat:no-repeat;
-background-size: cover;
-}
+
 
       #waveform{
         position: absolute;
@@ -553,6 +540,7 @@ background-size: cover;
        justify-content: center;
        cursor:pointer;
        display: flex;
+       font-weight: 900;
     }
 
     #dinate :hover{
@@ -648,16 +636,7 @@ background-size: cover;
       footer p {
         margin: 0;
       }
-
-      .waveimage {
-        display:flex;
-        width: 100%;
-        height: autop;
-background-color: transparent ;
-object-fit: cover;
-background-repeat:no-repeat;
-background-size: cover;
-}
+    
 
       #waveform{
         position: absolute;
@@ -929,13 +908,7 @@ background-size: cover;
       footer p {
         margin: 0;
       }
-      .waveimage {
-        display:flex;
-        width: 100%;
-        height: autop;
-background-color: #000;
-object-fit: cover;
-}
+
 
       #waveform{
         position: absolute;
@@ -1169,14 +1142,7 @@ color: #fff;
 
 
 
-  
-      .waveimage {
-        display:flex;
-        width: 100%;
-        height: autop;
-background-color: #000;
-object-fit: cover;
-}
+
 
       #waveform{
         position: absolute;
@@ -1412,13 +1378,6 @@ color: #fff;
       }
 
 
-      .waveimage {
-        display:flex;
-        width: 100%;
-        height: autop;
-background-color: #000;
-object-fit: cover;
-}
 
       #waveform{
         position: absolute;
