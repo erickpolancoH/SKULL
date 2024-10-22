@@ -90,6 +90,7 @@
            justify-content: center;
            cursor:pointer;
            display: flex;
+           font-weight: 900;
         } 
     
     .donate-button {
@@ -414,7 +415,7 @@ object-fit: cover;
       .waveimage {
         display:flex;
         width: 100%;
-        height: autop;
+        height: auto;
 background-color: #000;
 object-fit: cover;
 }
