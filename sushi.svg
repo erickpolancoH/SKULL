@@ -37,7 +37,7 @@
      inkscape:window-y="-11"
      inkscape:window-maximized="1" />
      metadata:
-     <svg xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink">
+
        <metadata id="metadata">
          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
            <cc:Work rdf:about="">
@@ -57,21 +57,8 @@
            </cc:Work>
          </rdf:RDF>
        </metadata>
-       <g id="Layer_1">
-         <g id="sushi">
-           <path>
-           d="M18.4583 15.7917C18.4583 14.9591 19.13
-          </path>
-       <script type="text/javascript">
-         const originalMetadata = document.getElementById('metadata').innerHTML;
-         setInterval(() => {
-           const currentMetadata = document.getElementById('metadata').innerHTML;
-           if (currentMetadata !== originalMetadata) {
-             document.getElementById('metadata').innerHTML = originalMetadata;
-             alert('Los metadatos han sido restaurados.');
-           }
-         }, 1000);
-       </script>
+         
+   
       
   <g
      inkscape:label="Capa 1"
